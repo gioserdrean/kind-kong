@@ -4,7 +4,7 @@ metadata:
   name: httpbin-ingress
   labels:
     app: httpbin
-  annotations:
+  # annotations:
     # konghq.com/plugins: rate-limiting, custom-plugin
     # konghq.com/host-aliases: "example.com,example.net"
     # konghq.com/methods: "GET,POST"
